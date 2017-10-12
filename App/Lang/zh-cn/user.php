@@ -1,6 +1,6 @@
 <?php
 /**
- * 悟空CRM 简体中文语言包
+ * 乐销易CRM 简体中文语言包
  * @module   User
  * @package  Lang
  * @author   Lynn
@@ -115,9 +115,9 @@ return array(
 	'EMAIL_NOT_BE_USEED'	=>	'没有用户使用该邮箱',
 	'INVALIDATE_EMAIL'		=>	'邮箱格式不正确！',
 	'INVALIDATE_TELEPHONE'		=>	'手机格式不正确！',
-	'FIND_PASSWORD_EMAIL'	=>'尊敬的%s：<br/><br/>请点击下面的链接完成找回密码：<br/><br/>%s<br/><br/>如果以上链接无法点击，请将上面的地址复制到你的浏览器(如IE)的地址栏进入网站。<br/><br/>--悟空CRM(这是一封自动产生的email，请勿回复。)',
+	'FIND_PASSWORD_EMAIL'	=>'尊敬的%s：<br/><br/>请点击下面的链接完成找回密码：<br/><br/>%s<br/><br/>如果以上链接无法点击，请将上面的地址复制到你的浏览器(如IE)的地址栏进入网站。<br/><br/>--乐销易CRM(这是一封自动产生的email，请勿回复。)',
 	'FIND_PASSWORD_LINK'	=>	'找回密码链接',
-	'5KCRM_ADMIN'			=>	'悟空CRM管理员',
+	'5KCRM_ADMIN'			=>	'乐销易CRM管理员',
 	'SEND_FIND_PASSWORD_EMAIL_SUCCESS'			=>	'邮件发送成功，请24小时之内到邮箱查看，请留意垃圾邮件！',
 	'INPUT_USER_NAME_OR_EMAIL'	=>	'请输入用户名或邮箱！',
 	'INPUT_USER_NAME'		=>	'请输入用户名',
@@ -144,8 +144,8 @@ return array(
 	'YOU_HAVE_NO_PERMISSION_TO_ADD_ADMIN'	=>	'你没有添加管理员用户的权利！',
 	'SELECT_POSITION_TO_ADD_USER'	=>	'请选择要添加用户的岗位!',
 	'USER_EXIST'			=>	'该用户已存在!',
-	'ADD_USER_EMAIL_CONENT'			=>	'尊敬的%s：<br/><br/>您好！您的CRM管理员已经给您发送了邀请，请查收！请点击下面的链接完成注册：<br/><br/>%s<br/><br/>如果以上链接无法点击，请将上面的地址复制到你的浏览器(如IE)的地址栏进入网站。<br/><br/>--悟空CRM管理员(这是一封自动产生的email，请勿回复。)',
-	'ADD_USER_INVITATION_FROM_5KCRM'	=>	'从悟空CRM添加用户邀请',
+	'ADD_USER_EMAIL_CONENT'			=>	'尊敬的%s：<br/><br/>您好！您的CRM管理员已经给您发送了邀请，请查收！请点击下面的链接完成注册：<br/><br/>%s<br/><br/>如果以上链接无法点击，请将上面的地址复制到你的浏览器(如IE)的地址栏进入网站。<br/><br/>--乐销易CRM管理员(这是一封自动产生的email，请勿回复。)',
+	'ADD_USER_INVITATION_FROM_5KCRM'	=>	'从乐销易CRM添加用户邀请',
 	'ADD_SUCCESS_WAITING_TO_BE_ACTIVED'	=>	'添加成功，等待被邀请用户激活!',
 	'CAN_NOT_SEND_INVITATION_CHECK_SMTP'	=>	'无法发送邀请，请检查smtp设置信息!',
 	'ADD_USER_SUCCESS_USER_CAN_LOGIN_NOW'	=>	'添加成功，该用户已可以登录系统!',

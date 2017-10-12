@@ -138,7 +138,7 @@ CREATE TABLE IF NOT EXISTS `5kcrm_config` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO `5kcrm_config` (`name`, `value`, `description`) VALUES
-('defaultinfo', 'a:8:{s:4:"name";s:9:"悟空CRM";s:11:"description";s:39:"开源免费的客户关系管理系统";s:5:"state";s:9:"河南省";s:4:"city";s:9:"郑州市";s:15:"allow_file_type";s:40:"pdf,doc,jpg,png,gif,txt,doc,xls,zip,docx";s:19:"contract_alert_time";i:30;s:10:"task_model";s:1:"2";s:4:"logo";N;}', ''),
+('defaultinfo', 'a:8:{s:4:"name";s:9:"乐销易CRM";s:11:"description";s:39:"乐销易CRM";s:5:"state";s:9:"北京市";s:4:"city";s:9:"海淀区";s:15:"allow_file_type";s:40:"pdf,doc,jpg,png,gif,txt,doc,xls,zip,docx";s:19:"contract_alert_time";i:30;s:10:"task_model";s:1:"2";s:4:"logo";N;}', ''),
 ( 'customer_outdays', '30', '客户设置放入客户吃天数'),
 ( 'customer_limit_condition', 'day', '客户池领取条件限制 day：今日 week： 本周 month：本月'),
 ( 'customer_limit_counts', '10', '客户池领取次数限制'),
@@ -206,7 +206,7 @@ CREATE TABLE IF NOT EXISTS `5kcrm_control` (
 
 
 INSERT INTO `5kcrm_control` (`control_id`, `module_id`, `name`, `m`, `a`, `parameter`, `description`) VALUES
-(1, 1, 'crm面板操作', 'index', 'index', '', 'CRM系统面板'),
+(1, 1, '5kcrm面板操作', 'index', 'index', '', 'CRM系统面板'),
 (2, 7, '修改个人信息', 'User', 'edit', '', '是的法士大夫地方'),
 (4, 7, '添加用户', 'User', 'add', '', ''),
 (78, 7, '删除员工', 'User', 'delete', '', ''),

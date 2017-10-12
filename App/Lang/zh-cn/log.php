@@ -1,6 +1,6 @@
 <?php
 /**
- * 悟空CRM 简体中文语言包
+ * 乐销易 简体中文语言包
  * @module   Log
  * @package  Lang
  * @author   Lynn

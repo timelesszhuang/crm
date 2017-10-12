@@ -68,10 +68,10 @@ function webscan_pape(){
     <title>操作失败！</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="悟空CRM">
+    <meta name="author" content="乐销易CRM">
     <link href="./Public/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./Public/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./Public/ico/favicon.png">
+    <link rel="shortcut icon" href="./Public/ico/favicon.ico">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -131,16 +131,10 @@ function webscan_pape(){
 									<div class="alert alert-error">插入了被禁用的标签！</div>			<p class="jump">
                  <a id="href" href="javascript:history.back(-1);">点击返回</a> </p> 
 			<div class="row-fluid wukong">
-				<div class="span3"><img style="height:50px;" src="./Public/img/logo_img.png" alt="悟空CRM"/></div>
+				<div class="span3"><img style="height:50px;" src="./Public/img/logo_img.png" alt="乐销易CRM"/></div>
 				<div class="span9">
-					<p>悟空CRM &copy; 郑州卡卡罗特软件科技有限公司 2013</p>
-					<p><small>
-						<a href="http://5kcrm.com/index.php?m=doc" target="_blank">使用帮助</a>
-						<span class="muted">&middot;</span>
-						<a href="http://www.5kcrm.com/" target="_blank">技术支持</a>
-						<span class="muted">&middot;</span>
-						<a href="http://www.ccds24.com" target="_blank">联系我们</a>
-					</small></p>
+					<p>乐销易CRM &copy; 北京易至信科技有限公司 </p>
+					
 				</div>
 			</div>
       </form>

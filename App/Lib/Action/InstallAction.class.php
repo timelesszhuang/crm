@@ -18,7 +18,7 @@ class InstallAction extends Action {
 				while (false !== ( $file_name = readdir($dir_handle)) ) {
 					if($file_name=='.' or $file_name =='..'){
 						continue;
-					} elseif ($file_name != "5kcrm.sql" && strpos($file_name,'.sql')){
+					} elseif ($file_name != "crm.sql" && strpos($file_name,'.sql')){
 						$upgrade_list[] = $file_name;
 					}
 				}
@@ -55,7 +55,7 @@ class InstallAction extends Action {
 				while (false !== ( $file_name = readdir($dir_handle)) ) {
 					if($file_name=='.' or $file_name =='..'){
 						continue;
-					} elseif ($file_name != "5kcrm.sql" && strpos($file_name,'.sql')){
+					} elseif ($file_name != "crm.sql" && strpos($file_name,'.sql')){
 						$upgrade_list[] = $file_name;
 					}
 				}
@@ -131,7 +131,7 @@ class InstallAction extends Action {
 		if (file_exists(CONF_PATH . "install.lock")) {
 			$this->error(L('PLEASE_DO_NOT_REPEAT_INSTALLATION'),U('Install/step3'));		
 		}	
-		if (!file_exists(getcwd() . "/Public/sql/5kcrm.sql")) {
+		if (!file_exists(getcwd() . "/Public/sql/crm.sql")) {
 			$this->error(L('LACK_THE_NECESSARY_DATABASE_FILES'),U('Install/step3'));		
 		}
 		if ($this->isPost()) {
@@ -203,7 +203,7 @@ class InstallAction extends Action {
 				$db_config_str.=");";
 				if(file_put_contents(CONF_PATH . "db.php", $db_config_str)){
 					$db = M();
-                    $sql = file_get_contents(getcwd() . "/Public/sql/5kcrm.sql");
+                    $sql = file_get_contents(getcwd() . "/Public/sql/crm.sql");
                     $sql = str_replace("5kcrm_", C('DB_PREFIX'), $sql); 
                     $sql = str_replace("http://demo.5kcrm.com", __ROOT__, $sql);
 					$sql = str_replace("\r\n", "", $sql); 
